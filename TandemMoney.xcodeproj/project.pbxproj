@@ -1,0 +1,413 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F9042CCF205C14E7009B746A /* ApiErrorResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9042CCE205C14E7009B746A /* ApiErrorResponse.swift */; };
+		F90768ED20616C07001DFB97 /* City.swift in Sources */ = {isa = PBXBuildFile; fileRef = F90768EC20616C07001DFB97 /* City.swift */; };
+		F91AC31220598990007CE0DE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F91AC31120598990007CE0DE /* AppDelegate.swift */; };
+		F91AC31720598990007CE0DE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F91AC31520598990007CE0DE /* Main.storyboard */; };
+		F91AC31920598990007CE0DE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F91AC31820598990007CE0DE /* Assets.xcassets */; };
+		F91AC31C20598990007CE0DE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F91AC31A20598990007CE0DE /* LaunchScreen.storyboard */; };
+		F91AC325205989B0007CE0DE /* ApiInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = F91AC324205989B0007CE0DE /* ApiInterface.swift */; };
+		F91AC327205989BB007CE0DE /* ApiRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = F91AC326205989BB007CE0DE /* ApiRequest.swift */; };
+		F91AC329205989DD007CE0DE /* ApiResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = F91AC328205989DD007CE0DE /* ApiResponse.swift */; };
+		F91AC32B205989F0007CE0DE /* ApiError.swift in Sources */ = {isa = PBXBuildFile; fileRef = F91AC32A205989F0007CE0DE /* ApiError.swift */; };
+		F91AC32D20598A04007CE0DE /* ApiManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F91AC32C20598A04007CE0DE /* ApiManager.swift */; };
+		F923590B2061968A00860463 /* CitiesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F923590A2061968A00860463 /* CitiesTableViewController.swift */; };
+		F94724D6205C066C00916586 /* Forecast.swift in Sources */ = {isa = PBXBuildFile; fileRef = F94724D5205C066C00916586 /* Forecast.swift */; };
+		F95FEBC2205D4AD5007FAFFE /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F95FEBC1205D4AD5007FAFFE /* Extensions.swift */; };
+		F95FEBC4205D4AF2007FAFFE /* Debug.swift in Sources */ = {isa = PBXBuildFile; fileRef = F95FEBC3205D4AF2007FAFFE /* Debug.swift */; };
+		F95FEBC620612B74007FAFFE /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F95FEBC520612B74007FAFFE /* TableViewController.swift */; };
+		F95FEBC820613A07007FAFFE /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F95FEBC720613A07007FAFFE /* CollectionViewCell.swift */; };
+		F9B9FA0D20619DA8003C5B86 /* city.list.json in Resources */ = {isa = PBXBuildFile; fileRef = F9B9FA0C20619DA8003C5B86 /* city.list.json */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F9042CCE205C14E7009B746A /* ApiErrorResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiErrorResponse.swift; sourceTree = "<group>"; };
+		F90768EC20616C07001DFB97 /* City.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = City.swift; sourceTree = "<group>"; };
+		F91AC30E20598990007CE0DE /* TandemMoney.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TandemMoney.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F91AC31120598990007CE0DE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F91AC31620598990007CE0DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F91AC31820598990007CE0DE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F91AC31B20598990007CE0DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F91AC31D20598990007CE0DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F91AC324205989B0007CE0DE /* ApiInterface.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiInterface.swift; sourceTree = "<group>"; };
+		F91AC326205989BB007CE0DE /* ApiRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiRequest.swift; sourceTree = "<group>"; };
+		F91AC328205989DD007CE0DE /* ApiResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiResponse.swift; sourceTree = "<group>"; };
+		F91AC32A205989F0007CE0DE /* ApiError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiError.swift; sourceTree = "<group>"; };
+		F91AC32C20598A04007CE0DE /* ApiManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiManager.swift; sourceTree = "<group>"; };
+		F923590A2061968A00860463 /* CitiesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CitiesTableViewController.swift; sourceTree = "<group>"; };
+		F94724D5205C066C00916586 /* Forecast.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Forecast.swift; sourceTree = "<group>"; };
+		F95FEBC1205D4AD5007FAFFE /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		F95FEBC3205D4AF2007FAFFE /* Debug.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Debug.swift; sourceTree = "<group>"; };
+		F95FEBC520612B74007FAFFE /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		F95FEBC720613A07007FAFFE /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		F9B9FA0C20619DA8003C5B86 /* city.list.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = city.list.json; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F91AC30B20598990007CE0DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F91AC30520598990007CE0DE = {
+			isa = PBXGroup;
+			children = (
+				F91AC31020598990007CE0DE /* TandemMoney */,
+				F91AC30F20598990007CE0DE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F91AC30F20598990007CE0DE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F91AC30E20598990007CE0DE /* TandemMoney.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F91AC31020598990007CE0DE /* TandemMoney */ = {
+			isa = PBXGroup;
+			children = (
+				F95FEBC0205D4AC8007FAFFE /* Common */,
+				F91AC3232059899D007CE0DE /* API */,
+				F94724D4205C065B00916586 /* Models */,
+				F95FEBBF205C3F9F007FAFFE /* Views */,
+				F91AC31820598990007CE0DE /* Assets.xcassets */,
+				F91AC31A20598990007CE0DE /* LaunchScreen.storyboard */,
+				F91AC31120598990007CE0DE /* AppDelegate.swift */,
+				F91AC31D20598990007CE0DE /* Info.plist */,
+			);
+			path = TandemMoney;
+			sourceTree = "<group>";
+		};
+		F91AC3232059899D007CE0DE /* API */ = {
+			isa = PBXGroup;
+			children = (
+				F91AC326205989BB007CE0DE /* ApiRequest.swift */,
+				F91AC328205989DD007CE0DE /* ApiResponse.swift */,
+				F91AC32A205989F0007CE0DE /* ApiError.swift */,
+				F91AC32C20598A04007CE0DE /* ApiManager.swift */,
+				F91AC324205989B0007CE0DE /* ApiInterface.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		F94724D4205C065B00916586 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				F94724D5205C066C00916586 /* Forecast.swift */,
+				F9042CCE205C14E7009B746A /* ApiErrorResponse.swift */,
+				F90768EC20616C07001DFB97 /* City.swift */,
+				F9B9FA0C20619DA8003C5B86 /* city.list.json */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		F95FEBBF205C3F9F007FAFFE /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F91AC31520598990007CE0DE /* Main.storyboard */,
+				F95FEBC520612B74007FAFFE /* TableViewController.swift */,
+				F95FEBC720613A07007FAFFE /* CollectionViewCell.swift */,
+				F923590A2061968A00860463 /* CitiesTableViewController.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		F95FEBC0205D4AC8007FAFFE /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				F95FEBC1205D4AD5007FAFFE /* Extensions.swift */,
+				F95FEBC3205D4AF2007FAFFE /* Debug.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F91AC30D20598990007CE0DE /* TandemMoney */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F91AC32020598990007CE0DE /* Build configuration list for PBXNativeTarget "TandemMoney" */;
+			buildPhases = (
+				F91AC30A20598990007CE0DE /* Sources */,
+				F91AC30B20598990007CE0DE /* Frameworks */,
+				F91AC30C20598990007CE0DE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TandemMoney;
+			productName = TandemMoney;
+			productReference = F91AC30E20598990007CE0DE /* TandemMoney.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F91AC30620598990007CE0DE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = Sintezis;
+				TargetAttributes = {
+					F91AC30D20598990007CE0DE = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = F91AC30920598990007CE0DE /* Build configuration list for PBXProject "TandemMoney" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F91AC30520598990007CE0DE;
+			productRefGroup = F91AC30F20598990007CE0DE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F91AC30D20598990007CE0DE /* TandemMoney */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F91AC30C20598990007CE0DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F91AC31C20598990007CE0DE /* LaunchScreen.storyboard in Resources */,
+				F9B9FA0D20619DA8003C5B86 /* city.list.json in Resources */,
+				F91AC31920598990007CE0DE /* Assets.xcassets in Resources */,
+				F91AC31720598990007CE0DE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F91AC30A20598990007CE0DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F94724D6205C066C00916586 /* Forecast.swift in Sources */,
+				F95FEBC4205D4AF2007FAFFE /* Debug.swift in Sources */,
+				F90768ED20616C07001DFB97 /* City.swift in Sources */,
+				F95FEBC820613A07007FAFFE /* CollectionViewCell.swift in Sources */,
+				F923590B2061968A00860463 /* CitiesTableViewController.swift in Sources */,
+				F91AC325205989B0007CE0DE /* ApiInterface.swift in Sources */,
+				F95FEBC620612B74007FAFFE /* TableViewController.swift in Sources */,
+				F91AC32D20598A04007CE0DE /* ApiManager.swift in Sources */,
+				F91AC327205989BB007CE0DE /* ApiRequest.swift in Sources */,
+				F95FEBC2205D4AD5007FAFFE /* Extensions.swift in Sources */,
+				F91AC329205989DD007CE0DE /* ApiResponse.swift in Sources */,
+				F91AC31220598990007CE0DE /* AppDelegate.swift in Sources */,
+				F9042CCF205C14E7009B746A /* ApiErrorResponse.swift in Sources */,
+				F91AC32B205989F0007CE0DE /* ApiError.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F91AC31520598990007CE0DE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F91AC31620598990007CE0DE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F91AC31A20598990007CE0DE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F91AC31B20598990007CE0DE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F91AC31E20598990007CE0DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F91AC31F20598990007CE0DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F91AC32120598990007CE0DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VHJ63KDM95;
+				INFOPLIST_FILE = TandemMoney/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = co.sintezis.TandemMoney;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F91AC32220598990007CE0DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VHJ63KDM95;
+				INFOPLIST_FILE = TandemMoney/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = co.sintezis.TandemMoney;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F91AC30920598990007CE0DE /* Build configuration list for PBXProject "TandemMoney" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F91AC31E20598990007CE0DE /* Debug */,
+				F91AC31F20598990007CE0DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F91AC32020598990007CE0DE /* Build configuration list for PBXNativeTarget "TandemMoney" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F91AC32120598990007CE0DE /* Debug */,
+				F91AC32220598990007CE0DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F91AC30620598990007CE0DE /* Project object */;
+}
